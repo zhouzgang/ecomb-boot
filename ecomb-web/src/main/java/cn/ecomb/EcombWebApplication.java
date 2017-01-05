@@ -8,5 +8,6 @@ public class EcombWebApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EcombWebApplication.class, args);
+		System.out.println("asdfhakjs");
 	}
 }

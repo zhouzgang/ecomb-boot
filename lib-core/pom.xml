@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>cn.ecomb</groupId>
-	<artifactId>ecomb-common</artifactId>
+	<artifactId>lib-core</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>ecomb-common</name>
-	<description>ecomb common</description>
+	<name>lib-core</name>
+	<description>lib-core</description>
 
 	<parent>
 		<groupId>cn.ecomb</groupId>
@@ -26,13 +26,17 @@
 	<dependencies>
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter</artifactId>-->
+			<!--<artifactId>spring-boot-starter-aop</artifactId>-->
+		<!--</dependency>-->
+		<!--<dependency>-->
+			<!--<groupId>org.springframework.boot</groupId>-->
+			<!--<artifactId>spring-boot-starter-data-jpa</artifactId>-->
 		<!--</dependency>-->
 
 		<!--<dependency>-->
 			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter-test</artifactId>-->
-			<!--<scope>test</scope>-->
+			<!--<artifactId>spring-boot-starter-Test</artifactId>-->
+			<!--<scope>Test</scope>-->
 		<!--</dependency>-->
 	</dependencies>
 

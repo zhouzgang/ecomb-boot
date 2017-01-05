@@ -24,24 +24,14 @@
 	</properties>
 
 	<dependencies>
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter-jersey</artifactId>-->
-		<!--</dependency>-->
-
-		<!--<dependency>-->
-			<!--<groupId>org.springframework.boot</groupId>-->
-			<!--<artifactId>spring-boot-starter-Test</artifactId>-->
-			<!--<scope>Test</scope>-->
-		<!--</dependency>-->
 		<dependency>
 			<groupId>cn.ecomb</groupId>
-			<artifactId>ecomb-core</artifactId>
+			<artifactId>lib-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 		<dependency>
 			<groupId>cn.ecomb</groupId>
-			<artifactId>ecomb-common</artifactId>
+			<artifactId>lib-common</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 

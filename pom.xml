@@ -13,8 +13,8 @@
 
 	<modules>
 		<module>ecomb-admin</module>
-		<module>ecomb-common</module>
-		<module>ecomb-core</module>
+		<module>lib-common</module>
+		<module>lib-core</module>
 		<module>ecomb-web</module>
 	</modules>
 
