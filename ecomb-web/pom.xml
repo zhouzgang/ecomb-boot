@@ -29,6 +29,7 @@
 			<artifactId>lib-core</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
+
 		<dependency>
 			<groupId>cn.ecomb</groupId>
 			<artifactId>lib-common</artifactId>
