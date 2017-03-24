@@ -9,5 +9,6 @@ public class EcombCoreApplication {
 	///test
 	public static void main(String[] args) {
 		SpringApplication.run(EcombCoreApplication.class, args);
+		System.out.println("test");
 	}
 }
