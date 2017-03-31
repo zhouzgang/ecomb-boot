@@ -1,18 +1,17 @@
 package cn.ecomb.lib.core.bean;
 
-import org.springframework.data.annotation.Id;
+import cn.ecomb.common.hibernate.LongIdBaseEntity;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
 
 /**
  * Created by zhouzg on 2017/3/24.
  */
 @Entity
-public class User{
-    @Id
-    @GeneratedValue
-    private long id;
+public class User extends LongIdBaseEntity{
+//    @Id
+//    @GeneratedValue(strategy=GenerationType.IDENTITY)
+//    private long id;
 
     private String name;
     public String getName() {
@@ -22,12 +21,12 @@ public class User{
     public void setName(String name) {
         this.name = name;
     }
-
-    public long getId() {
-        return id;
-    }
-
-    public void setId(Long id) {
-        this.id = id;
-    }
+//
+//    public long getId() {
+//        return id;
+//    }
+//
+//    public void setId(Long id) {
+//        this.id = id;
+//    }
 }

@@ -1,4 +1,4 @@
-package cn.ecomb.hiberate;
+package cn.ecomb.common.hibernate;
 
 import javax.persistence.*;
 
